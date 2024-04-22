@@ -24,6 +24,12 @@ h2 {
   font-weight: bold;
 }
 
+h3 {
+  color: darkblue;
+  font-size: 22px;
+  font-weight: bold;
+}
+
 p {
   line-height: 1.5;
 }
