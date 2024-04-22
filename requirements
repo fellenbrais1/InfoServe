@@ -1,132 +1,112 @@
-Getting requirements for the DataWizard google extension for the company InfoServe
+Requirements Document for ‘MySQL-Wizard’ Landing Page
+22/04/2024
 
-Client: Tom McCann, founder InfoServe / Coder
+Client:
+Tom McCann
+Technical Director
+InfoProve
 
-What is the product?: (Checking)
-InfoServe is a SASS (Software as a Service business)
+Front-end developer:
+Michael McCann
 
-Product name:
-was going to be one product to allow users to alk to 4 diffeent types iof databse
-decided to launch 4 propducts, each talkjing to each database
-eventually creating a unified product
-MySQL-Wizard
+Web page:
+‘MySQL-Wizard’ - a google extension landing page.
 
-Manage sales data, schedules etc sometimes they need daya to support their spreadsheet, for sales mamagers they might want to work out bonuses/ grads etc based on real data like sales figures.
-Sales mamagwer would normally approach the IT and ask for a weekly download of all sales figures they needed. This toll will allow peolpe to do this without having to go to IT first. IT departments often get overloaded with too manyt requests so they are sympathetic t othie idea for sel-service. With thius tool, the maager could specify what they need with only mininmal support from the IT department.
-It allows a google sheet to interogate a google databasem which databssse to pull from nad wtrite queires to specifit he xact data they want to bring tio the spreadsheet directly. Schedules can be created so that the queories can read whenver thety want e.g. everyt month etc. The user trains it to do what they want. After a query a user can specify a erecurring schedule.
+Purpose:
+To create a landing page to give users/ potential users information about the ‘MySQL-Wizard’ google extension. The landing page would also encourage users to trial the extension, or buy the full version. It would also give users additional information about InfoProve, and potentially future products etc.
 
-It would be marketted at two angles, the individual user or the company, the tone could be different for each
+Design brief (outline):
+To present all (95%) of the important information to the user above the fold about the ‘MySQL-Wizard’ extension and why they should use it, including pricing information and buttons to trial the extension or buy the full version. Scrolling down the page, there will be some example images and a little more information about the product and InfoProve. All copy will be as a draft, and can be changed to reflect the desired tone and information at a later date. Design principle will echo elements of Tim Bennetto’s ‘Pallyy’ web page as discussed.
 
-They needs to be a sectin for information for the IT department so the user could take it to the IT department for them to set it up
+The web page should be responsive and display well on all browsers and devices. It should be accessible conforming to ARIA specifications (WAI-ARIA), and be available in English only for the time being. For now, just a landing page will be developed, with provisions made to be able to flexibly add additional pages, elements etc. in the future.
 
-Design the messaging to appeal to the user.
+The product:
+‘MySQL-Wizard’, the first of 5 products that will be used to interrogate different databases for a customised set of information, specified by the user. The first product will focus on interrogating MySQL databases. Users can choose which table they want to extract data from and what columns etc. as well. After specifying what information the user wants, ‘MySQL-Wizard’ will write SQL queries while in a Google sheet, and send these to the database to retrieve the information for export to the same Google Sheet.
 
-Landing page should give the user 95% of the informaton on the first screen, what problem, what it does and roughty what the price plan is, above the fold. They can scroll down to give them more detail. inital requirement is just to have the landing page.
+The product can be used by users without so much IT experience, who might need more support setting it up the first time, and also users with more advanced IT knowledge, such as the IT departments of companies etc. This product will be used however the customer wants, but a usual use case would be something like a sales manager extracting relevant information about their team member’s sales on a weekly or monthly basis. The product enables queries to be set up on a customised recurring basis after the first enquiry.
 
-The first product is for mySQL
+Requirements:
+Requirements will be split into sub headings below:
 
-DataWizard (check name) is a product that allows users to install the extension and then search large SQL databases more easily
+Style:
+Blue and gold ‘McCann colours’ to be captured from the ‘Wizard’ image itself.
+The style of the rest of the web page will be mocked up with changes to be made later.
 
-DataWizard allows users to specify areas of their database to search and other parameters and DataWizard will auto generate correpsonding SQL queries
+Information to be displayed above the fold:
+Company name and logo (to be added later if needed).
+Image for the MySQL-Wizard ‘wizard’ image.
+Eye-catching header highlighting what the extension can do for the user.
+Short paragraph outlining the problem, the solution, and some additional information.
+Pricing information in eye-catching type.
+Buttons to start a free trial and purchase the full version.
 
-It comes as a google extenstion that runs in a side window on top of google sheets etc
+Information to be displayed under the fold:
+Sample pictures (2) of the extension in action with minimal annotation.
+Additional information about MySQL-Wizard’s features.
+A section displaying information for the more technical users (e.g. a company's IT department) with some information about how to set up/ use the extension.
+Company information about InfoProve.
+Picture of Tom McCann, title, and contact details.
 
-What (product):
-How does it output? (What does the user output look like?)
+Copy style/ focus:
+The marketing copy would primarily be aimed at users with less IT experience, with the focus of keeping things simple and less technical as well as making the product come across as easy to use.
+Very short paragraph stating the difficulties faced when getting the data you need from a database, and about how creating complex SQL queries to a database takes a lot of expertise, time, and can cause stress for less technical users. Leaning into the fact that the extension provides a simple and easy to use solution, offering a way to query databases to get exactly the information the user needs. Finish the paragraph by talking about the ability of the extension to set up recurring queries with the extension (this could be included under the fold as additional information.)
+More technical copy under the fold to further emphasise ease of use, and to include information about how the extension allows two types of queries, easy mode–where users specify a table to pull from the database and can apply multiple filters–and technical mode–where users can generate their own SQL queries.
 
-Would you like to display samples of output on the webpage?
+Particular wording to include in the web page:
+A mock-up version of the web page to be created first to spark ideas.
+Copy can be developed further in future.
 
-2 pictures showing 2 different screen, annotated a little bit, to not go into too much detail, the more detail you give a potential customer, the more they have to worry about. The more you spell out deatures, it gets less likely to make a sale. Easiness is the key thing we want to show.
+Trial information:
+Users get 10 free tries and are then directed to purchase the full version.
 
-How is it installed (search through the google extensions tab?)
-Like to have just one version of the site. Doesn't matter if people are coming to this from the trial or directly from the website.
-10 free goes in the trial.
+Pricing information:
+$25 dollars per month and that's it (as a placeholder amount)
 
-A button/ section to start the free trail and also the information to buy the product
+Contact details:
+Message near the bottom of the web page to encourage users to get in contact.
+Contact details to be displayed in the footer/ bottom of the web page (to be provided by Tom McCann)
 
-$25 dollars per month and thats it
+Customer testimonials:
+Not required, but could be added at a later date.
 
-Would you like to display images of this process on the webpage?
+Images displayed:
+Not fully decided on yet.
+Wizard picture for the MySQL-Wizard product displayed near the top of the page.
+Two pictures showing example screens of the extension in use, annotated a little bit to not go into too much detail and keep things easy to understand. Images and annotation will emphasise the ease of use of the extension.
 
-Who:
-Who is the website meant to appeal to?
-=My ideas
--People searching through large quantities of data that need SQL queries written
--People who are not proficient at generating SQL queries that still need to search databases
--People who need to do a complex search quickly and more easily
-=Client
+Interactable elements:
+Buttons to start the free trial and to buy the product.
 
-Where:
-Where can people find your extension?
-In google sheets, users can go to the extensions menu to browse the different extensions that can be searched.
-Where can people come from to get to this landing page?
-Extensions -> Addons -> get addons
+External links:
+None for now, can be added later.
 
-How:
-How do you wish to state the problem users want to solve on the landing page?
+Integrated payment on page:
+Payment to be handled by this page, with Tom McCann to provide code for a Stripe processor, connected to the purchase button element.
+Michael McCann will look into finding a host company that can host the page which comes with Stripe facilities.
 
-How would you like to state the solution to the problem on your webpage?
+Accessibility:
+‘alt’ attributes will be included for all images to enable output in screen readers.
+Web page to be compliant with the ARIA specification.
 
-Why:
-Why would people seek out this product?
+Language support:
+Other languages than English are not required at this stage.
+Web page will be mocked up in English to begin with.
 
-Why would people use this product?
+Support to allow people to share the page on various social media:
+Not required.
 
-Why would people KEEP using this product? (Are there any unique selling points we can really lean into on the webpage?)
-Easy to use, allows you to do two types of queries, technical mode = SQL queries and a simple mode called easy mode = 'selection' to specify a table from the database and apply multiple filters
+Other pages that branch off the landing page:
+Not required, but could be added at a later date.
 
-When:
-What is your timescale / launch window?
-Next couple of months will be sumbitting to Google for review and they want to see the sales website before they give approval
-When would you like to see a mock-up of the webpage?
-By the end of the week,
+Additional widgets on the web page?:
+Not required.
 
-A requirement to be thrown in should be responsive (works on multiple formats/ screen types)
+Additional advertising on the web page:
+Not required.
 
-What (webpage):
-What other images would you like to display on the webpage? (can I have access to them?)
-Undecided for the time being, want to provide something little that is visual for the user, will send me the file
-What external links, if any, would you need accessible on the page? (How large, prominent etc?)
+Timescale:
+Aiming for submission to Google for review in the next few months.
+A mock-up of the web page to be created and shown by the end of this week (26/04/2024), hosted on Github pages as proof of concept.
+Web domain to be secured later.
 
-Any preference for style, colors (e.g. company colors), sizing, font etc? (This can be mocked up and dealt with later)
-So far there is a blue and gold, can capture from the Wizard itself
-What is the trial model for this product? (How many uses etc?)
-10 uses
-What is the subscription model for this product? (Can we display a placeholder for now if not worked out?) (pricing?) (Google is discontinuing paid extensions, can no longer charge through Chrome Web Store payments)
-Handled by this page, had invisiged that some code would be provided for Stripe processor, add a purchase button that can invoke the code. Could add a bit of value and find a host company that can host the page and comes with Stripe facilities. If there is soemthing out there, it could help with the process. Wix etc, no code site builders but there might be a simpler one.
-Is there any wording in particular you would like included in the page?
-
-Do you need the webpage to be accessible to people using screen readers etc? (Can inlcude 'alt' attributes for images)
-Include alt tags for the images google require them, there is a specification called ARia which spells out the things you have to
-Do you need the webpage to available in multiple languages? (support could be added later after the English mock-up is complete)
-No, just in English to begin with
-Do you want the webpage to lead to the extension on the google extension tab in case people go to the site and not the extension first?
-No,
-Do you eventually want payment systems on this webpage, or use an external webpage to handle payments? (I think it has to go through the google extensions tab?)
-Answered above
-Do you want to display other information about your comapny on the webpage? If so, what?
-Down the bottom like the PALLY WEBSITE, ask for picture
-Do you want support to allow people to share the page on various social media?
-Not for this one
-Should there be contact details on the webpage? Do you want to encourage people to contact or not?
-Yes add contact
-Do there need to be any testimonials on the webpage?
-not to begin with
-Do you want any other pages that branch off the landing page, for example, a more detailed explanation page etc?
-not to begin with
-Do you want to display pictures of any staff members on the webpage?
-
-Do you want to embed any widgits in this webpage?
-no
-Do you want to include any advertising on this page? (to generate extra revenue)
-no
-Do you want to ask for donations on the webpage?
-
-Come up with a mock up to spark ideas, there is no specific wording for all
-
-Will the user be able to edit or add comments to their data, do they need to have accounts etc
-Performance, how many people could be hitting the website at the same time
-
-Requirements are usually split into two types, functional requirements - what it does, and non-functional requirements -e.g. legal and compliance, security
-
-Do it in the google doc and add Dad as a editor access so he can make corrections etc
+Please let me know if there are any changes you would like to make to these requirements, I will begin building a framework for the page but will hold off on specific content until I have approval.
