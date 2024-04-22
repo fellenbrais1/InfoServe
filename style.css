@@ -33,3 +33,7 @@ h3 {
 p {
   line-height: 1.5;
 }
+
+.testimonal-list {
+  list-style: none;
+}

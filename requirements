@@ -1,0 +1,92 @@
+Getting requirements for the DataWizard google extension for the company InfoServe
+
+Client: Tom McCann, founder InfoServe / Coder
+
+What is the product?: (Checking)
+InfoServe is a SASS (Software as a Service business)
+
+Product name:
+
+DataWizard (check name) is a product that allows users to install the extension and then search large SQL databases more easily
+
+DataWizard allows users to specify areas of their database to search and other parameters and DataWizard will auto generate correpsonding SQL queries
+
+It comes as a google extenstion that runs in a side window on top of google sheets etc
+
+What (product):
+How does it output? (What does the user output look like?)
+
+Would you like to display samples of output on the webpage?
+
+How is it installed (search through the google extensions tab?)
+
+Would you like to display images of this process on the webpage?
+
+Who:
+Who is the website meant to appeal to?
+=My ideas
+-People searching through large quantities of data that need SQL queries written
+-People who are not proficient at generating SQL queries that still need to search databases
+-People who need to do a complex search quickly and more easily
+=Client
+
+Where:
+Where can people find your extension?
+
+Where can people come from to get to this landing page?
+
+How:
+How do you wish to state the problem users want to solve on the landing page?
+
+How would you like to state the solution to the problenm on your webpage?
+
+Why:
+Why would people seek out this product?
+
+Why would people use this product?
+
+Why would people KEEP using this product? (Are there any unique selling points we can really lean into on the webpage?)
+
+When:
+What is your timescale / launch window?
+
+When would you like to see a mock-up of the webpage?
+
+What (webpage):
+What other images would you like to display on the webpage? (can I have access to them?)
+
+What external links, if any, would you need accessible on the page? (How large, prominent etc?)
+
+Any preference for style, colors (e.g. company colors), sizing, font etc? (This can be mocked up and dealt with later)
+
+What is the trial model for this product? (How many uses etc?)
+
+What is the subscription model for this product? (Can we display a placeholder for now if not worked out?) (pricing?) (Google is discontinuing paid extensions, can no longer charge through Chrome Web Store payments)
+
+Is there any wording in particular you would like included in the page?
+
+Do you need the webpage to be accessible to people using screen readers etc? (Can inlcude 'alt' attributes for images)
+
+Do you need the webpage to available in multiple languages? (support could be added later after the English mock-up is complete)
+
+Do you want the webpage to lead to the extension on the google extension tab in case people go to the site and not the extension first?
+
+Do you eventually want payment systems on this webpage, or use an external webpage to handle payments? (I think it has to go through the google extensions tab?)
+
+Do you want to display other information about your comapny on the webpage? If so, what?
+
+Do you want support to allow people to share the page on various social media?
+
+Should there be contct details on the webpage? Do you want to encourage people to contact or not?
+
+Do there need to be any testimonials on the webpage?
+
+Do you want any other pages that branch off the landing page, for example, a more detailed explanation page etc?
+
+Do you want to display pictures of any staff members on the webpage?
+
+Do you want to embed any widgits in this webpage?
+
+Do you want to include any advertising on this page? (to generate extra revenue)
+
+Do you want to ask for donations on the webpage?
