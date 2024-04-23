@@ -11,8 +11,7 @@ li {
 
 h1 {
   color: rgba(224, 190, 36);
-  font-size: 50px;
-  text-transform: uppercase;
+  font-size: 36px;
   font-weight: bold;
 }
 
@@ -39,12 +38,18 @@ p {
   text-decoration-style: solid;
 }
 
+/*
 .company_title {
   padding-left: 300px;
 }
+*/
 
 .mainunderline {
   text-decoration-line: rgba(224, 190, 36);
+}
+
+.main_paragraph {
+  max-width: 650px;
 }
 
 .price {
@@ -56,12 +61,15 @@ p {
   position: relative;
 }
 
+/*
 .sample_images img {
   padding: 50px;
 }
+*/
 
 .additonal_info ul {
   list-style: disc;
+  max-width: 600px;
 }
 
 footer ul {
