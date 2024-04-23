@@ -10,8 +10,8 @@ li {
 }
 
 h1 {
-  color: rgba(253, 213, 84);
-  font-size: 30px;
+  color: rgba(224, 190, 36);
+  font-size: 50px;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -44,12 +44,12 @@ p {
 }
 
 .mainunderline {
-  text-decoration: underline rgba(253, 213, 84);
-  text-align: center;
+  text-decoration-line: rgba(224, 190, 36);
 }
 
-.main_paragraph {
-  text-align: center;
+.price {
+  font-size: 24px;
+  color: rgba(44, 102, 180);
 }
 
 .product_image {
@@ -60,14 +60,10 @@ p {
   padding: 50px;
 }
 
-.purchase_button {
-  color-scheme: red, yellow;
-}
-
-.trial_buttton {
-  color-scheme: blue, green;
-}
-
 .additonal_info ul {
   list-style: disc;
+}
+
+footer ul {
+  list-style: none;
 }
