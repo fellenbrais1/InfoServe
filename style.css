@@ -10,24 +10,26 @@ li {
 }
 
 h1 {
-  color: blue;
+  color: rgba(253, 213, 84);
   font-size: 30px;
   text-transform: uppercase;
   font-style: italic;
   font-weight: bold;
 }
 
-h2 {
-  color: blueviolet;
-  font-size: 24px;
-  font-style: italic;
+h2,
+h3 {
+  color: rgba(44, 102, 180);
   font-weight: bold;
 }
 
+h2 {
+  font-size: 24px;
+  font-style: italic;
+}
+
 h3 {
-  color: darkblue;
   font-size: 22px;
-  font-weight: bold;
 }
 
 p {
