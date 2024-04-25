@@ -1,12 +1,10 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-li {
-  font-family: sans-serif;
+* {
+  padding: 0 0;
+  margin: 0 0;
+  color: rgb(29, 45, 53);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 22px;
+  text-align: center;
 }
 
 h1 {
@@ -17,11 +15,10 @@ h1 {
 
 h2,
 h3 {
-  font-weight: bold;
+  color: rgba(44, 102, 180);
 }
 
 h2 {
-  color: rgba(44, 102, 180);
   font-size: 24px;
   font-style: italic;
 }
@@ -34,22 +31,85 @@ p {
   line-height: 1.5;
 }
 
-.company_header {
-  text-decoration-style: solid;
+article h2 {
+  margin-bottom: 16px;
 }
 
-/*
-.company_title {
-  padding-left: 300px;
-}
-*/
-
-.mainunderline {
-  text-decoration-line: rgba(224, 190, 36);
+.company_header img {
+  margin-bottom: 20px;
+  object-position: left top;
+  display: flex;
 }
 
-.main_paragraph {
+/* .product_header,
+.product_pitch .container_1 .pitch_paragraph {
+  text-align: center;
   max-width: 650px;
+} */
+
+.product_header h1 {
+  margin-bottom: 16px;
+  padding-left: 100px;
+}
+
+.product_image {
+  position: relative;
+}
+
+/* .container_0 {
+  height: auto;
+  width: auto;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* .container_0, */
+.container_1,
+.container_2,
+.container_3,
+.container_4 {
+  height: auto;
+  width: auto;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  /* overflow: hidden; */
+  box-sizing: border-box;
+}
+
+.pitch_title,
+.pitch_underline {
+  color: rgba(44, 102, 180);
+  font-weight: 800;
+  font-size: 40px;
+  max-width: 672px;
+  line-height: 48px;
+  text-align: center;
+}
+
+.pitch_underline {
+  text-decoration-line: underline;
+  text-decoration-color: rgba(224, 190, 36);
+}
+
+.pitch_paragraph {
+  align-items: center;
+  justify-content: center;
+  max-width: 672px;
+}
+
+.pitch_paragraph p {
+  margin-bottom: 16px;
+}
+
+.pitch_list li {
+  font-size: 16px;
+}
+
+.pitch_list ul {
+  list-style: circle;
+  padding-left: 15px;
 }
 
 .price {
@@ -57,21 +117,35 @@ p {
   color: rgba(44, 102, 180);
 }
 
-.product_image {
+.sample_images {
   position: relative;
 }
 
-/*
-.sample_images img {
-  padding: 50px;
+.sample_image_1 {
+  margin: 20px 40px;
+  /* position: absolute; */
 }
-*/
+
+.sample_image_2 {
+  margin: 20px 40px;
+  /* position: absolute; */
+}
 
 .additonal_info ul {
   list-style: disc;
   max-width: 600px;
 }
 
-footer ul {
+.staff_pictures {
   list-style: none;
+}
+
+footer {
+  text-align: left;
+}
+
+#within_div {
+  display: inline-block;
+  width: 80%;
+  text-align: left !important;
 }
