@@ -1,11 +1,6 @@
-.gitignore
-
 * {
-  padding: 0 0;
   margin: 0 0;
-  color: rgb(29, 45, 53);
   font-family: ui-sans-serif, system-ui, sans-serif;
-  font-size: 22px;
 }
 
 h1 {
@@ -17,6 +12,7 @@ h1 {
 h2,
 h3 {
   color: rgba(44, 102, 180);
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -30,10 +26,22 @@ h3 {
 
 p {
   line-height: 1.5;
+  color: rgb(29, 45, 53);
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 
 article h2 {
   margin-bottom: 16px;
+}
+
+ul {
+  padding-left: 20px;
+  list-style: square;
+}
+
+li {
+  margin-bottom: 10px;
 }
 
 .company_header img {
@@ -42,49 +50,43 @@ article h2 {
   display: flex;
 }
 
-/* .product_header,
-.product_pitch .container_1 .pitch_paragraph {
-  text-align: center;
-  max-width: 650px;
-} */
-
 .product_header h1 {
   margin-bottom: 16px;
-  padding-left: 100px;
+  padding-left: 50px;
 }
 
 .product_image {
-  position: relative;
+  margin-top: 20px;
 }
 
-/* .container_0 {
-  height: auto;
-  width: auto;
-  display: inline-block;
+.main_div {
+  border: 1px solid blue;
+  width: 60%;
+  height: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
   align-items: center;
-  justify-content: center;
-} */
+}
 
-/* div {
-  width: 80%;
-  align-self: center;
-  place-self: center;
-} */
-
-/* .container_0, */
-.container_1,
-.container_2,
-.container_3,
-.container_4 {
+.parent_img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
   border: 1px solid red;
-  position: center;
-  height: auto;
-  width: auto;
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
-  /* overflow: hidden; */
-  box-sizing: border-box;
+  width: inherit;
+  object-position: center;
+}
+
+.img_1 {
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.img_2 {
+  margin: 10px;
+  border: 1px solid black;
 }
 
 .pitch_title,
@@ -153,8 +155,29 @@ footer {
   text-align: left;
 }
 
-#within_div {
-  display: inline-block;
-  width: 80%;
-  text-align: left !important;
+.purchase_button,
+.trial_button {
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 40px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.purchase_button:hover,
+.trial_button:hover {
+  background-color: white;
+  color: black;
+}
+
+.purchase_button:active,
+.trial_button:hover {
+  text-transform: italic;
+}
+
+.trial_button {
+  margin-bottom: 10px;
 }

@@ -1,9 +1,7 @@
 * {
   padding: 0 0;
   margin: 0 0;
-  color: rgb(29, 45, 53);
   font-family: ui-sans-serif, system-ui, sans-serif;
-  font-size: 22px;
   text-align: center;
 }
 
@@ -29,6 +27,8 @@ h3 {
 
 p {
   line-height: 1.5;
+  color: rgb(29, 45, 53);
+  font-size: 22px;
 }
 
 article h2 {
@@ -64,11 +64,11 @@ article h2 {
   justify-content: center;
 } */
 
-/* div {
+div {
   width: 80%;
   align-self: center;
   place-self: center;
-} */
+}
 
 /* .container_0, */
 .container_1,
@@ -77,8 +77,8 @@ article h2 {
 .container_4 {
   border: 1px solid red;
   position: center;
-  height: auto;
-  width: auto;
+  height: 70%;
+  width: 70%;
   display: inline-block;
   align-items: center;
   justify-content: center;
