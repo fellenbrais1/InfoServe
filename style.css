@@ -1,14 +1,9 @@
 * {
-  padding: 0 0;
-  margin: 0 0;
   font-family: ui-sans-serif, system-ui, sans-serif;
-  text-align: center;
-  color: rgb(29, 45, 53);
-  font-size: 22px;
 }
 
-h1 strong {
-  color: rgba(224, 190, 36) !important;
+h1 {
+  color: rgba(224, 190, 36);
   font-size: 36px;
   font-weight: bold;
 }
@@ -16,6 +11,7 @@ h1 strong {
 h2,
 h3 {
   color: rgba(44, 102, 180);
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -31,61 +27,75 @@ p {
   line-height: 1.5;
   color: rgb(29, 45, 53);
   font-size: 22px;
+  margin-bottom: 10px;
+  margin-top: 0;
 }
 
 article h2 {
   margin-bottom: 16px;
 }
 
-.company_header img {
-  margin-bottom: 20px;
-  object-position: left top;
-  display: flex;
+ul {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: square;
 }
 
-/* .product_header,
-.product_pitch .container_1 .pitch_paragraph {
+li {
+  margin-bottom: 10px;
+}
+
+.company_header img {
+  object-position: left top;
+  margin-right: auto;
   text-align: center;
-  max-width: 650px;
-} */
+}
 
 .product_header h1 {
   margin-bottom: 16px;
-  padding-left: 100px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product_header .container_0 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .product_image {
-  position: relative;
+  margin-top: 20px;
 }
 
-/* .container_0 {
-  height: auto;
-  width: auto;
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
-} */
-
-div {
-  width: 80%;
-  align-self: center;
-  place-self: center;
+.main_div {
+  border: 1px solid blue;
+  width: 65%;
+  height: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-/* .container_0, */
-.container_1,
-.container_2,
-.container_3,
-.container_4 {
+.parent_img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
   border: 1px solid red;
-  position: center;
-  height: 70%;
-  width: 70%;
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
-  /* overflow: hidden; */
-  box-sizing: border-box;
+  width: auto;
+  object-position: center;
+}
+
+.img_1 {
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.img_2 {
+  margin: 10px;
+  border: 1px solid black;
 }
 
 .pitch_title,
@@ -95,7 +105,9 @@ div {
   font-size: 40px;
   max-width: 672px;
   line-height: 48px;
-  text-align: center;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pitch_underline {
@@ -104,22 +116,31 @@ div {
 }
 
 .pitch_paragraph {
-  align-items: center;
-  justify-content: center;
-  max-width: 672px;
+  text-align: left;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pitch_paragraph p {
   margin-bottom: 16px;
 }
 
-.pitch_list li {
-  font-size: 16px;
+#pitch_list {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 0;
+  list-style: square;
 }
 
-.pitch_list ul {
-  list-style: circle;
-  padding-left: 15px;
+#pitch_list li {
+  margin: 0 auto;
+  display: list-item;
+  padding-left: 20px;
+  text-align: left;
+  font-size: 16px;
+  margin-top: 10px;
 }
 
 .price {
@@ -127,23 +148,21 @@ div {
   color: rgba(44, 102, 180);
 }
 
-.sample_images {
-  position: relative;
+.parent_img img {
+  margin: 20px 40px;
+  height: 85%;
+  width: auto;
 }
 
-.sample_image_1 {
-  margin: 20px 40px;
-  /* position: absolute; */
-}
-
-.sample_image_2 {
-  margin: 20px 40px;
-  /* position: absolute; */
+.sample_image_1_text,
+.sample_image_2_text {
+  font-size: 16px;
 }
 
 .additonal_info ul {
-  list-style: disc;
-  max-width: 672px;
+  list-style: square;
+  width: 50%;
+  text-align: left;
 }
 
 .staff_pictures {
@@ -151,11 +170,44 @@ div {
 }
 
 footer {
-  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#within_div {
-  display: inline-block;
-  width: 80%;
-  text-align: left !important;
+.purchase_button,
+.trial_button,
+.sticky_full_btn {
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 40px;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.purchase_button:hover,
+.trial_button:hover {
+  background-color: white;
+  color: black;
+}
+
+.purchase_button:active,
+.trial_button:hover {
+  text-transform: italic;
+}
+
+.trial_button {
+  margin-bottom: 10px;
+}
+
+.sticky_btn {
+  text-align: right;
+  position: fixed;
+  top: 50%;
+  right: 10px;
 }
