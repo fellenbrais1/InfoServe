@@ -7,7 +7,7 @@
   font-size: 22px;
 }
 
-h1 {
+h1 strong {
   color: rgba(224, 190, 36) !important;
   font-size: 36px;
   font-weight: bold;
