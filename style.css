@@ -159,6 +159,15 @@ li {
 .sample_image_1_text,
 .sample_image_2_text {
   font-size: 16px;
+  text-align: center;
+}
+
+.sample_image_1_text {
+  padding-left: 19%;
+}
+
+.sample_image_2_text {
+  padding-right: 23%;
 }
 
 .additonal_info ul {
