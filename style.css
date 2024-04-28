@@ -202,13 +202,15 @@ footer {
 }
 
 .purchase_button:hover,
-.trial_button:hover {
+.trial_button:hover,
+.sticky_btn:hover {
   background-color: white;
   color: black;
 }
 
 .purchase_button:active,
-.trial_button:hover {
+.trial_button:active,
+.sticky_btn:active {
   text-transform: italic;
 }
 
