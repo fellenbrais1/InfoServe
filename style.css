@@ -105,8 +105,8 @@ li {
   color: rgba(44, 102, 180);
   font-weight: 800;
   font-size: 40px;
-  max-width: 672px;
-  line-height: 48px;
+  max-width: 60%;
+  line-height: 1.2;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
@@ -201,19 +201,6 @@ footer {
   text-align: center;
 }
 
-.purchase_button:hover,
-.trial_button:hover,
-.sticky_btn:hover {
-  background-color: white;
-  color: black;
-}
-
-.purchase_button:active,
-.trial_button:active,
-.sticky_btn:active {
-  text-transform: italic;
-}
-
 .trial_button {
   margin-bottom: 10px;
 }
@@ -223,4 +210,17 @@ footer {
   position: fixed;
   top: 50%;
   right: 10px;
+}
+
+.purchase_button:active,
+.trial_button:active,
+.sticky_full_btn:active {
+  text-transform: italic;
+}
+
+.purchase_button:hover,
+.trial_button:hover,
+.sticky_full_btn:hover {
+  background-color: white;
+  color: black;
 }
