@@ -5,7 +5,7 @@
     <meta
       charset="UTF-8"
       name="viewport"
-      content="width=device-width, initial-scale=1.0"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
     />
     <link href="style.css" rel="StyleSheet" />
     <link
@@ -30,15 +30,13 @@
 
   <body>
     <header class="company_header">
-      <a href="index_2.html" target="_blank"
-        ><img
-          class="company_logo"
-          src="img/infoprove_logo.png"
-          alt="The logo of InfoProve"
-          width="200"
-          height="20"
-        />
-      </a>
+      <img
+        class="company_logo"
+        src="img/infoprove_logo.png"
+        alt="The logo of InfoProve"
+        width="200"
+        height="20"
+      />
     </header>
 
     <div class="main_div">
@@ -50,8 +48,8 @@
               class="product_image"
               src="img/wizard_logo.png"
               alt="The logo of MySQL-Wizard"
-              width="100"
-              height="100"
+              width="100px"
+              height="100px"
             />
           </h1>
         </div>
@@ -78,6 +76,9 @@
           <li>Do it all from within your Google Sheet!</li>
         </ul>
         <p class="price"><strong>$25 a month, and that's it.</strong></p>
+        <p class="price_info">
+          No credit card details required, prices in USD.
+        </p>
         <a href="#"
           ><button class="purchase_button">Get the full version</button></a
         >
@@ -97,8 +98,8 @@
               class="sample_image_1"
               src="img/example_image_1.png "
               alt="example MySQL-Wizard image 1"
-              width="300"
-              height="400"
+              width="420px"
+              height="auto"
             />
             <p class="sample_image_1_text">
               <em>MySQL-Wizard</em> runs directly from your Google Sheet.
@@ -109,8 +110,8 @@
               class="sample_image_2"
               src="img/example_image_2.png"
               alt="example MySQL-Wizard image 2"
-              width="300"
-              height="400"
+              width="420px"
+              height="auto"
             />
             <p class="sample_image_2_text">
               Apply a wide range of filters to get at exactly the data you need.
@@ -154,6 +155,16 @@
         </ul>
       </aside>
 
+      <div class="about">
+        <h2>About our company</h2>
+        <p>
+          <em>InfoProve</em> may be a small company, but we showcase some big
+          talent.<br /><br />
+          Tom Mccann has been a developer of many different IT systems for his
+          entire career, and has working experience with several programming
+          languages, paradigms, and software packages.
+        </p>
+      </div>
       <footer>
         <p class="company_info">
           <strong>Copyright &copy; InfoProve 2024</strong>
@@ -161,20 +172,18 @@
         <p class="company_contact">
           Contact us at: (informaton to be supplied later)
         </p>
-        <!--Inclided a <ul> element so more staff pictures etc. can be added if needed later-->
         <ul class="staff_pictures">
           <li>
             <img
               class="staff_picture_1"
-              src="img/tom_mccann.png"
+              src="img/tom_mccann_2.png"
               alt="A picture of Tom McCann"
-              width="100"
-              height="100"
+              width="150"
+              height="150"
             />
-            <p>Tom McCann, InfoProve</p>
+            <p class="staff_name_1">Tom McCann, InfoProve</p>
           </li>
         </ul>
-        <a href="index_2.html" target="_blank">Go to other page</a>
       </footer>
     </div>
 
@@ -183,6 +192,6 @@
         ><button class="sticky_full_btn">Get the full version</button></a
       >
     </aside>
-    <button id="scroll_to_top" href="#"><a href="#">&UpArrow;</a></button>
+    <a href="#" id="scroll_to_top">&UpArrow;</a>
   </body>
 </html>
