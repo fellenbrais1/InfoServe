@@ -2,6 +2,10 @@
   font-family: ui-sans-serif, system-ui, sans-serif;
 }
 
+body {
+  position: relative;
+}
+
 h1 {
   color: rgba(224, 190, 36);
   font-size: 36px;
@@ -208,8 +212,8 @@ footer {
 .sticky_btn {
   text-align: right;
   position: fixed;
-  top: 50%;
-  right: 10px;
+  top: 90%;
+  right: 1%;
 }
 
 .purchase_button:active,
@@ -221,6 +225,61 @@ footer {
 .purchase_button:hover,
 .trial_button:hover,
 .sticky_full_btn:hover {
-  background-color: white;
-  color: black;
+  background-color: #fff;
+  color: #000;
+}
+
+#scroll_to_top {
+  background-color: #000;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  padding: 15px 15px;
+  margin: 4px 4px;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  border-radius: 50%;
+}
+
+#scroll_to_top a {
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+  /* color: #fff; */
+}
+
+#scroll_to_top:link {
+  padding: 20px 20px;
+  color: rgba(44, 102, 180);
+}
+
+#scroll_to_top:hover {
+  background-color: #fff;
+  color: rgba(44, 102, 180);
+  text-decoration: underline;
+  text-decoration-color: rgba(44, 102, 180);
+  cursor: pointer;
+}
+
+/* #scroll_to_top a:hover {
+  color: rgba(44, 102, 180);
+} */
+
+#scroll_to_top:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+#scroll_to_top:active {
+  text-decoration: none;
+  font-weight: bold;
 }
