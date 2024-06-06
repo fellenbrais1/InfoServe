@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Benford's Analyzer</title>
+    <meta
+      charset="UTF-8"
+      name="viewport"
+      content="width=device-width,
+    initial-scale=1.0, maximum-scale=1.0"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="style2.css" rel="StyleSheet" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/apple-touch-icon-2.png?"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32-2.png?"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16-2.png?"
+    />
+    <link rel="manifest" href="img/site.webmanifest-2?" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-brand">
+          <span class="active" id="logo-1">Clever</span>
+          <span id="logo-2">Little</span>
+          <span id="logo-3">Software</span>
+          <span id="logo-4">Company</span>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-0 mb-2 mb-lg-0">
+            <!-- Changed class to ms-0 -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/ourproducts"
+                >Our Products</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/yourproduct">Your Product</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="page_box">
+      <div id="product_info">
+        <h1 id="product_name">Benford's Analyzer</h1>
+        <a href="index.html" target="_blank" title="SQL-Wizard's Page">
+          <img
+            id="product_image"
+            src="img/Benford's Logo.png"
+            alt="The Benford's Analyzer Logo"
+            title="Benford's Analyzer"
+            width="200px"
+            length="200px"
+          />
+        </a>
+      </div>
+      <div id="intro_text">
+        <h1 class="intro_header">
+          Need a quick and easy way to indicate if your numbers are
+          <strong id="intro_strong">genuine?</strong>
+        </h1>
+      </div>
+      <p id="pitch_paragraph">
+        How can your data work for you if it is anything less?<br />
+        <strong>Benford's Analyzer</strong> offers a quick and easy way to check
+        your data for authenticity, all based in cold-hard statistics -
+        Benford's Law!<br />
+      </p>
+      <p id="price">
+        <strong>Yours for the low low price of an idea.</strong>
+      </p>
+      <p id="price_info">
+        Just let us know what software you would like to see developed to make
+        your life/ work easier, and you'll get a licence.
+      </p>
+      <aside id="try_button">
+        <a href="#" title="Go to the add-on store">Try it today!</a>
+      </aside>
+      <div id="img_grid">
+        <div id="grid_item_1">
+          <img
+            src="img/benfords_promo_1.png"
+            alt="A picture of Benford's Analyzer extension in Google Sheets"
+            title="An example of the Benford's Analyzer running in Google Sheets"
+          />
+          <p id="gird_item_1_text">
+            Use <strong>Benford's Analyzer</strong> from within your Google
+            Sheet. <br />
+            Analyze 'All Sheets', 'Whole Sheet' or a 'Selected Range'.
+          </p>
+        </div>
+        <div id="grid_item_2">
+          <img
+            src="img/benfords_promo_2.png"
+            alt="A picture of Benford's Analyzer results page"
+            title="An example of the Benford's Analyzer results page"
+          />
+          <p id="grid-item-2-text">
+            The results screen is simple and easy to read.<br />
+            See the variance between your numbers and Benford's Law.
+          </p>
+        </div>
+      </div>
+      <p id="pitch_list_intro">How does it work?<br /></p>
+      <ul id="pitch_list">
+        <li>
+          Distribution of numbers in real data follows a strong trend, Benford's
+          Law.
+        </li>
+        <li>1 is by far the most common as a non-zero leading number.</li>
+        <li>The other numbers decrease in frequency as they go up.</li>
+        <li>
+          On the other hand, human generated random numbers are distributed more
+          evenly.
+        </li>
+        <li>
+          Benford's Analyzer checks the distribution of numbers in your data
+          against Benford's Law.
+        </li>
+        <li>
+          A high variance could indicate authenticity issues in your data!
+        </li>
+      </ul>
+      <p id="more_info_title">
+        Benford's Law is consistent across many different types of data, in
+        fact, just how consistent it is might suprise you.
+      </p>
+      <p id="info_link_text">See it demonstrated in an interesting way here:</p>
+      <a
+        id="info_link"
+        href="https://testingbenfordslaw.com/"
+        target="_blank"
+        title="Testing Benford's Law"
+        >TESTING BENFORD'S LAW</a
+      >
+      <div id="img_grid_2">
+        <div id="grid_2_item_1">
+          <img
+            id="more_info_img"
+            src="img/benfords_promo_4.png"
+            alt="A picture of the Benford's distribution"
+            title="The Benford's Law number distribution"
+          />
+          <p id="grid_2_item_1_text">The Benford's Law number distribution.</p>
+        </div>
+        <div id="grid_item_2">
+          <img
+            src="img/benfords_promo_3.png"
+            alt="A picture comparing the results of Benford's Analyzer to the Benford's Law distribution"
+            title="An example of the Benford's Analyzer comparison chart"
+          />
+          <p id="grid_2_item_2_text">
+            Easily compare your number distribution to Benford's <br />Law with
+            <em>Benford's Analyzer</em>.
+          </p>
+        </div>
+      </div>
+      <p id="final_pitch">So why choose <strong>Benford's Analyzer</strong>?</p>
+      <ul id="final_pitch_list">
+        <li>
+          A lightweight, powerful, simple add-on that allows quick and easy data
+          analysis.
+        </li>
+        <li>
+          Switch between analyzing all sheets in your Sheets file, a whole
+          sheet, or a selected range.
+        </li>
+        <li>Process up to 10 million cells at one time.</li>
+        <li>Do everything from within Google Sheets with one simple add-on.</li>
+        <li>It can be yours for just a little feedback!.</li>
+      </ul>
+      <img
+        id="final_logo"
+        src="img/Benford's Logo.png"
+        alt="The Benford's Analyzer Logo"
+        title="Benford's Analyzer"
+        width="200px"
+        length="200px"
+      />
+      <div id="about">
+        <h2>About our company</h2>
+        <p>
+          <em>The Clever Little Software Company</em> may be small, but we
+          showcase some big talent.<br /><br />
+          Tom McCann has been a developer working on many high-profile systems
+          over a long and varied IT career, as well as developing his own
+          products. He has worked with several major programming languages,
+          paradigms, and software packages.<br /><br />
+          Michael McCann is a front-end developer who has worked on websites and
+          Google Add-ons. He has worked with several different programming
+          languages, in many countries around the world.
+        </p>
+        <p class="company_info">
+          Copyright &copy; <em>The Clever Little Software Company 2024</em>
+        </p>
+        <p class="company_contact">
+          Contact us at:
+          <a
+            href="tom@cleverlittlesoftware.com"
+            target="_blank"
+            title="Contact us"
+            >tom@cleverlittlesoftware.com</a
+          >
+        </p>
+      </div>
+      <footer>
+        <div id="staff_pictures">
+          <div id="staff_member_1">
+            <img
+              src="img/tom_mccann_2.png"
+              alt="A picture of Tom McCann"
+              title="Tom McCann"
+              width="150"
+              height="150"
+            />
+            <p id="staff_name_1">Tom McCann, TCLSC</p>
+          </div>
+          <div id="staff_member_2">
+            <img
+              src="img/michael_mccann.jpg"
+              alt="A picture of Michael McCann"
+              title="Michael McCann"
+              width="150"
+              height="150"
+            />
+            <p id="staff_name_2">Michael McCann, TCLSC</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      const words = ["Clever", "Little", "Software", "Company"];
+      let index = 0;
+
+      function changeWord() {
+        const currentIndex = index % words.length;
+        const nextIndex = (index + 1) % words.length;
+
+        document
+          .querySelector(`#logo-${currentIndex + 1}`)
+          .classList.remove("active");
+        document
+          .querySelector(`#logo-${nextIndex + 1}`)
+          .classList.add("active");
+
+        index++;
+      }
+
+      setInterval(changeWord, 10000);
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <aside id="sticky_btn">
+      <a href="#"
+        ><button id="sticky_full_btn" title="Go to the add-on store">
+          Try it today!
+        </button></a
+      >
+    </aside>
+  </body>
+</html>

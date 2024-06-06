@@ -1,0 +1,450 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Inter", "Inter-bold", "Inter-extra-bold", ui-sans-serif,
+    system-ui, sans-serif;
+  font-weight: normal;
+  font-family: "Inter-bold", Arial, sans-serif;
+  color: #244953;
+}
+
+/* Added new fonts using the follow syntax */
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter/static/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter-bold";
+  src: url("fonts/Inter/static/Inter-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter-extra-bold";
+  src: url("fonts/Inter/static/Inter-ExtraBold.ttf") format("truetype");
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  font-size: 18pt;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+}
+
+.navbar-brand {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+  width: 200px; /* Set a fixed width */
+  text-align: center; /* Center the text */
+  display: inline-block;
+  position: relative;
+  font-family: "Merriweather", sans-serif;
+  font-size: 18pt;
+  margin-left: -30px; /* Move the logo further to the left */
+  margin-top: -25px; /* Raise the logo */
+}
+
+.navbar-brand span {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 3s ease-in-out;
+  color: purple;
+}
+
+.navbar-brand span.active {
+  opacity: 1;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  align-items: center; /* Center the nav items vertically */
+}
+
+.navbar-nav .nav-link {
+  position: relative;
+  color: black;
+  margin-left: 10px; /* Adjust margin to move items left or right */
+}
+
+.navbar-nav .nav-link:hover {
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -5px;
+  height: 3px;
+  background-color: black;
+}
+
+.scrollable-content {
+  display: flexbox;
+  margin-top: 56px; /* Adjust this based on your navbar height */
+  padding: 20px;
+}
+
+#product_info {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#page_box {
+  display: flexbox;
+  justify-content: center;
+  align-content: center;
+  /* border: solid 1px #f2765e; */
+  margin-top: 70px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#product_name {
+  font-weight: bold;
+  font-size: 40px;
+  text-decoration: underline #9fd9c9;
+  text-decoration-skip-ink: none;
+  margin-left: 200px;
+  justify-self: start;
+}
+
+#product_image {
+  height: 150px;
+  width: auto;
+  margin-right: 200px;
+  justify-self: end;
+}
+
+#intro_text {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+#intro_strong {
+  text-decoration: underline #9fd9c9;
+  text-decoration-skip-ink: none;
+}
+
+#intro_header {
+  margin-bottom: 40px;
+}
+
+#pitch_paragraph {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 80%;
+  font-size: 20px;
+}
+
+#pitch_list_intro {
+  font-size: 20px;
+}
+
+#pitch_list {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding-left: 10px;
+  list-style: square;
+  max-width: 800px;
+  font-size: 18px;
+}
+
+#pitch_list li::marker {
+  color: #9fd9c9;
+}
+
+#pitch_list_intro {
+  font-weight: bold;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-decoration: underline;
+  text-decoration-color: #9fd9c9;
+}
+
+#try_button {
+  background-color: black;
+  color: #ffffff;
+  font-family: "Inter-bold", Arial, sans-serif;
+  width: 16vw;
+  height: 4vw;
+  font-size: 1.4vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+#try_button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#sticky_full_btn {
+  background-color: black;
+  color: #ffffff;
+  font-family: "Inter-bold", Arial, sans-serif;
+  width: 16vw;
+  height: 4vw;
+  font-size: 1.4vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#sticky_btn {
+  text-align: right;
+  position: fixed;
+  bottom: 5%;
+  right: 1%;
+}
+
+#price,
+#price_info {
+  font-weight: bold;
+  font-size: 22px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+#price {
+  text-decoration: underline 2px;
+  text-decoration-color: #9fd9c9;
+  text-decoration-skip-ink: none;
+}
+
+#price_info {
+  font-size: 16px;
+}
+
+#img_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  max-width: 100%;
+  object-position: center;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+#grid_item_1 img {
+  margin: 0;
+  text-align: left;
+  display: inline-block;
+  height: 300px;
+  max-width: 100%;
+  border: solid black 1px;
+  transition: transform 0.3s ease-in-out;
+}
+
+#grid_item_2 img {
+  margin: 0;
+  text-align: right;
+  display: inline-block;
+  height: 300px;
+  max-width: 100%;
+  border: solid black 1px;
+  transition: transform 0.3s ease-in-out;
+}
+
+#grid_item_1_text,
+#grid_item_2_text p {
+  font-family: "Inter-bold", Arial, sans-serif;
+  color: #244953;
+  margin-top: 20px;
+  text-align: center;
+  justify-self: center;
+}
+
+#grid_item_1 img:hover,
+#grid_item_2 img:hover {
+  transform: scale(1.4); /* Increase image size by 10% */
+}
+
+#more_info_title {
+  width: 80%;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#final_pitch,
+#final_pitch_list {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: square;
+  max-width: 800px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+#final_pitch {
+  text-decoration: underline;
+  text-decoration-color: #9fd9c9;
+}
+
+#final_pitch_list li::marker {
+  color: #9fd9c9;
+}
+
+#info_link {
+  display: block;
+  color: #244953;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+#info_link_text,
+#info_link {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+#img_grid_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  width: 100%;
+  max-width: 100%;
+  object-position: center;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+#grid_2_item_1 img {
+  margin: 0;
+  text-align: left;
+  display: inline-block;
+  height: 300px;
+  width: 450px;
+  max-width: 100%;
+  border: solid black 1px;
+  transition: transform 0.3s ease-in-out;
+}
+
+#grid_2_item_2 img {
+  margin: 0;
+  text-align: right;
+  display: inline-block;
+  height: 300px;
+  width: 450px;
+  max-width: 100%;
+  border: solid black 1px;
+  transition: transform 0.3s ease-in-out;
+}
+
+#grid_2_item_1_text p,
+#grid_2_item_2_text p {
+  font-family: "Inter-bold", Arial, sans-serif;
+  color: #244953;
+  margin-top: 20px;
+  text-align: center;
+  justify-self: center;
+}
+
+#grid_2_item_1 img:hover,
+#grid_2_item_2 img:hover {
+  transform: scale(1.4); /* Increase image size by 10% */
+}
+
+#final_logo {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+#about {
+  display: block;
+  justify-content: center;
+  width: 80%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+#about h2 {
+  text-decoration: underline;
+  text-decoration-color: #9fd9c9;
+}
+
+#about a {
+  color: #9fd9c9;
+  text-decoration-color: #9fd9c9;
+}
+
+#staff_pictures {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  width: 20%;
+  object-position: center;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+#staff_member_1 img,
+#staff_member_2 img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  border: #2c66b4 solid 2px;
+}
+
+#staff_name_1,
+#staff_name_2 {
+  text-align: center;
+}
