@@ -99,6 +99,9 @@ body {
   display: flexbox;
   margin-top: 56px; /* Adjust this based on your navbar height */
   padding: 20px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #product_info {
@@ -110,10 +113,12 @@ body {
 }
 
 #page_box {
-  display: flexbox;
+  display: block;
   justify-content: center;
   align-content: center;
-  /* border: solid 1px #f2765e; */
+  border: solid 1px #f2765e;
+  width: 80%;
+  max-width: 1000px;
   margin-top: 70px;
   margin-left: 10%;
   margin-right: 10%;
@@ -262,7 +267,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 10px;
-  max-width: 100%;
+  max-width: 1000px;
   object-position: center;
   position: relative;
   margin-top: 20px;
@@ -352,7 +357,7 @@ body {
   grid-template-columns: 1fr 1fr;
   column-gap: 10px;
   width: 100%;
-  max-width: 100%;
+  max-width: 1000px;
   object-position: center;
   position: relative;
   margin-top: 20px;
